@@ -1,7 +1,23 @@
 {
-  "name": "my-storybook",
+  "name": "ac-my-storybook-test-components",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "license": "MIT",
+  "types": "dist/index.d.ts",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AngelCruzL/sb-testComponents"
+  },
+  "release": {
+    "branches": [
+      "main"
+    ],
+    "files": [
+      "dist",
+      "src"
+    ]
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
@@ -17,7 +33,7 @@
   },
   "scripts": {
     "start": "start-storybook -p 6006",
-    "build": "build-storybook",
+    "build": "TODO: add build script",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "chromatic": "npx chromatic --project-token=7d9b083550b8"
