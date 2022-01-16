@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": false,
   "license": "MIT",
-  "types": "dist/index.d.ts",
+  "typings": "dist/index.d.ts",
   "main": "dist/index.js",
   "repository": {
     "type": "git",
